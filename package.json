@@ -1,0 +1,20 @@
+{
+	"name": "iro",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"host": "vite --host 0.0.0.0 dev",
+		"build": "vite build",
+		"package": "svelte-kit package",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"mdsvex": "^0.10.6",
+		"svelte": "^3.44.0",
+		"vite": "^2.9.13"
+	},
+	"type": "module"
+}
